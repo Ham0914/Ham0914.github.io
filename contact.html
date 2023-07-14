@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PetSits</title>
+		<link rel="icon" type="image/x-icon" href="resources/binuStare.png">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+
+		<div id="menuToggler" class="menuStuff" data-menu-stuff>&#8801; Menu</div>
+
+		<nav id="menu">
+			<div class="b"><img src="resources/pawPrint.png" alt="logo" class="logoPaw">PetSits</div>
+			<a href="index.html"><div class="navButtons" id="homeTrigger">Home</div></a>
+			<a href="about.html"><div class="navButtons" id="aboutTrigger">About</div></a>
+			<a href="services.html"><div class="navButtons" id="servicesTrigger">Services</div></a>
+			<a href="contact.html"><div class="navButtons" id="contactTrigger">Contact</div></a>
+		</nav>
+
+		<div>
+			<div class="containerAbout">
+				<div class="c">Home | Contact</div>
+				<div class="d">Contact Us</div>
+			</div>
+		</div>
+
+		<section class="contacts-section">
+			<h2>Contacts</h2>
+			<div class="contacts-row">
+				<div class="contact-box">
+					<img src="resources/location.png" alt="Image 1">
+					<h5>Address</h5>
+					<p>249 Binu Street, <br>Leicester, LE3 0EP</p>
+				</div>
+				<div class="contact-box">
+					<img src="resources/phone.png" alt="Image 2">
+					<h5>Phone</h5>
+					<p>+44 7694204639</p>
+				</div>
+				<div class="contact-box">
+					<img src="resources/paperAirplane.png" alt="Image 3">
+					<h5>Email</h5>
+					<p>PetSits@Binu.com</p>
+				</div>
+				<div class="contact-box">
+					<img src="resources/website.png" alt="Image 4">
+					<h5>Website</h5>
+					<p>PetSits.com</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-form">
+			<div class="form-container">
+				<h2>Contact Us</h2>
+				<div class="row">
+					<div class="form-sections">
+						<form action="#" method="POST">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control" id="name" name="name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="email" class="form-control" id="email" name="email" required>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject:</label>
+							<input type="text" class="form-control" id="subject" name="subject" required>
+						</div>
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+					<div class="form-image">
+						<img src="resources/binuCute.png" alt="Contact Us">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-section">
+				<h3>About Us</h3>
+				<p>We are a pet care service that specialises in boarding pets while you go on vacations or for any other reasons. We provide a wide range of services while your pets stay with us!</p>
+			</div>
+			<div class="footer-section">
+				<h3>Contact Us</h3>
+				<p>249 Binu Street</p>
+				<p>Leicester, LE3 0EP</p>
+				<p>Phone: +44 7694204639</p>
+				<p>Email: binu@PetSits.com</p>
+			</div>
+			<div class="footer-section">
+				<h3>Connect With Us</h3>
+				<ul class="footer-socials">
+					<li class="socials"><img src="resources/facebook.png" alt="facebook" class="footerImg"><a href="#">Facebook</a></li>
+					<li class="socials"><img src="resources/twitter.png" alt="facebook" class="footerImg"><a href="#">Twitter</a></li>
+					<li class="socials"><img src="resources/instagram.png" alt="facebook" class="footerImg"><a href="#">Instagram</a></li>
+					<li class="socials"><img src="resources/linkedin.png" alt="facebook" class="footerImg"><a href="#">LinkedIn</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="js/contactScript.js"></script>
+	</body>
+</html>
+
